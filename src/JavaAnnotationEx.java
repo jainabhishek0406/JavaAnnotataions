@@ -24,6 +24,7 @@ class UsingAnnotation extends ParentClass{
         System.out.println("This method is support is planned to remove");
     }
 
+    @SuppressWarnings("unchecked")
     public Hashtable getTableData()
     {
         Hashtable hashtable = null;

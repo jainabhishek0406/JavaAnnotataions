@@ -1,0 +1,18 @@
+Output
+
+Hello Abhishek from UsingAnnotation class
+This method is support is planned to remove
+
+Compiler Message, before @SuppressWarnings("unchecked") annotation use
+Information:javac 1.8.0_131 was used to compile java sources
+Information:11/11/2019 11:25 PM - Build completed successfully with 1 warning in 2 s 923 ms
+F:\NEDA_Learning_2019\JavaAnnotations\src\JavaAnnotationEx.java
+Warning:(46, 24) java: RetiringThisMethodSoon() in UsingAnnotation has been deprecated
+Information:java: /F:/NEDA_Learning_2019/JavaAnnotations/src/JavaAnnotationEx.java uses unchecked or unsafe operations.
+Information:java: Recompile with -Xlint:unchecked for details.
+
+Compiler Message, After @SuppressWarnings("unchecked") annotation use
+Information:javac 1.8.0_131 was used to compile java sources
+Information:11/11/2019 11:31 PM - Build completed successfully with 1 warning in 2 s 828 ms
+F:\NEDA_Learning_2019\JavaAnnotations\src\JavaAnnotationEx.java
+Warning:(47, 24) java: RetiringThisMethodSoon() in UsingAnnotation has been deprecated
